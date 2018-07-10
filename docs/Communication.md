@@ -28,7 +28,7 @@ Message frame structure:
 |||||||
 | MSP_RC ||||||
 |||||||
-| MSP_SER_RAW_RC ||||||
+| MSP_SET_RAW_RC ||||||
 |||||||
 | MSP_RAW_GPS ||||||
 |||||||
@@ -39,5 +39,23 @@ Message frame structure:
 | MSP_ALTITUDE ||||||
 |||||||
 | MSP_ANALOG ||||||
+|||||||
+| MSP_BOXIDS ||||||
+|||||||
+| MSP_BOX ||||||
+|||||||
+| MSP_SET_BOX ||||||
+|||||||
+| MSP_PID ||||||
+|||||||
+| MSP_SET_PID ||||||
+|||||||
+| MSP_BOX_NAMES ||||||
+|||||||
+| MSP_PID_NAMES ||||||
+|||||||
+| MSP_WP ||||||
+|||||||
+| MSP_SET_WP ||||||
 |||||||
 |||||| END OF TABLE |
