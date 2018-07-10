@@ -22,40 +22,70 @@ Message frame structure:
 |||||||
 | MSP_RAW_IMU | 102 |||||
 |||||||
-| MSP_MOTOR ||||||
+| MSP_MOTOR | 104 |||||
 |||||||
-| MSP_SET_MOTOR ||||||
+| MSP_RC | 105 |||||
 |||||||
-| MSP_RC ||||||
+| MSP_RAW_GPS | 106 |||||
 |||||||
-| MSP_SET_RAW_RC ||||||
+| MSP_COMP_GPS | 107 |||||
 |||||||
-| MSP_RAW_GPS ||||||
+| MSP_ATTITUDE | 108 |||||
 |||||||
-| MSP_COMP_GPS ||||||
+| MSP_ALTITUDE | 109 |||||
 |||||||
-| MSP_ATTITUDE ||||||
+| MSP_ANALOG | 110 |||||
 |||||||
-| MSP_ALTITUDE ||||||
+| MSP_PID | 112 |||||
 |||||||
-| MSP_ANALOG ||||||
+| MSP_BOX | 113 |||||
 |||||||
-| MSP_BOXIDS ||||||
+| MSP_BOX_NAMES | 116 || String of BOX items |||
 |||||||
-| MSP_BOX ||||||
+| MSP_PID_NAMES | 117 || String of PID items |||
 |||||||
-| MSP_SET_BOX ||||||
+| MSP_WP | 118 |||||
 |||||||
-| MSP_PID ||||||
+| MSP_BOXIDS | 119 |||||
 |||||||
-| MSP_SET_PID ||||||
+| MSP_RC_DEADBAND | 113 |||||
 |||||||
-| MSP_BOX_NAMES ||||||
+| MSP_NAV_STATUS | 121 |||||
 |||||||
-| MSP_PID_NAMES ||||||
+| MSP_NAV_CONFIG | 122 |||||
 |||||||
-| MSP_WP ||||||
+| MSP_SENSOR_ALIGNMENT | 126 |||||
 |||||||
-| MSP_SET_WP ||||||
+| MSP_REF_ALTITUDE | 130 |||||
+|||||||
+| MSP_REF_DISTANCE | 131 |||||
+|||||||
+| MSP_TOPOLOGY | 132 |||||
+|||||||
+| MSP_SRC_ADDR | 133 |||||
+|||||||
+| MSP_DEST_ADDR | 134 |||||
+|||||||
+| MSP_SET_MOTOR | 204 |||| * |
+|||||||
+| MSP_SET_RAW_RC | 205 |||| * |
+|||||||
+| MSP_SET_PID | 212|||||
+|||||||
+| MSP_SET_BOX | 213 |||| * |
+|||||||
+| MSP_SET_WP | 218 |||| * |
+|||||||
+| MSP_SET_HEAD | 211 |||||
+|||||||
+| MSP_SET_REF_ALTITUDE | 230 |||||
+|||||||
+| MSP_SET_REF_DISTANCE | 231 |||||
+|||||||
+| MSP_SET_TOPOLOGY | 232 |||||
+|||||||
+| MSP_SET_SRC_ADDR | 233 |||||
+|||||||
+| MSP_SET_DEST_ADDR | 234 |||||
 |||||||
 |||||| END OF TABLE |
