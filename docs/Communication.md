@@ -36,9 +36,13 @@ Message frame structure:
 |||||||
 | MSP_ANALOG | 110 |||||
 |||||||
+| MSP_RC_TUNING | 111 |||||
+|||||||
 | MSP_PID | 112 |||||
 |||||||
 | MSP_BOX | 113 |||||
+|||||||
+| MSP_MISC | 114 |||||
 |||||||
 | MSP_BOX_NAMES | 116 || String of BOX items |||
 |||||||
@@ -48,11 +52,11 @@ Message frame structure:
 |||||||
 | MSP_BOXIDS | 119 |||||
 |||||||
-| MSP_RC_DEADBAND | 113 |||||
-|||||||
 | MSP_NAV_STATUS | 121 |||||
 |||||||
 | MSP_NAV_CONFIG | 122 |||||
+|||||||
+| MSP_RC_DEADBAND | 125 |||||
 |||||||
 | MSP_SENSOR_ALIGNMENT | 126 |||||
 |||||||
@@ -66,17 +70,33 @@ Message frame structure:
 |||||||
 | MSP_DEST_ADDR | 134 |||||
 |||||||
+| MSP_STATUS_EX | 150 |||| |
+|||||||
+| MSP_SENSOR_STATUS | 151 |||| * |
+|||||||
+| MSP_GPSSVINFO | 164 |||| * |
+|||||||
+| MSP_GPSSTATISTICS | 166 |||| * |
+|||||||
 | MSP_SET_MOTOR | 204 |||| * |
 |||||||
 | MSP_SET_RAW_RC | 205 |||| * |
 |||||||
-| MSP_SET_PID | 212|||||
+| MSP_SET_RAW_GPS | 206 |||| * |
+|||||||
+| MSP_SET_RC_TUNING | 211 |||| * |
+|||||||
+| MSP_SET_PID | 212|||| * |
 |||||||
 | MSP_SET_BOX | 213 |||| * |
 |||||||
-| MSP_SET_WP | 218 |||| * |
+| MSP_ACC_CALIBRATION | 214 |||| * |
 |||||||
-| MSP_SET_HEAD | 211 |||||
+| MSP_MAG_CALIBRATION | 215 |||| * |
+|||||||
+| MSP_SET_HEAD | 217 |||| * |
+|||||||
+| MSP_SET_WP | 218 |||| * |
 |||||||
 | MSP_SET_REF_ALTITUDE | 230 |||||
 |||||||
