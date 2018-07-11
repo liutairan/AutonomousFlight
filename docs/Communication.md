@@ -16,6 +16,14 @@ Message frame structure:
 
 | Command | Frame ID | Direction | Data | Type | Note |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| MSP_PROTOCOL_VERSION | 0 | | VERSION |||
+|||||||
+| MSP_API_VERSION | 1 |  | VERSION |||
+|||||||
+| MSP_BOARD_INFO | 4 | FC-> | |||
+|||||||
+| MSP_BUILD_INFO | 5 | FC-> | |||
+|||||||
 | MSP_IDENT | 100 | FC-> | VERSION |||
 |||||||
 | MSP_STATUS | 101 | FC-> |  |  ||
