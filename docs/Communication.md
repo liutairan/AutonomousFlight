@@ -8,7 +8,7 @@ Message frame structure:
 | Field | Note |
 |:-----:|:----:|
 | Preamble | $A |
-| Direction | < or > |
+| Direction | < (From computer/another device to FC) or > (From FC to computer/another device) |
 | Size | Size of the data frame |
 | Command | Frame id |
 | Data | Data for each command |
