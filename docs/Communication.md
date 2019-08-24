@@ -12,7 +12,7 @@ Message frame structure:
 | Size | Size of the data frame |
 | Command | Frame id |
 | Data | Data for each command |
-| CRC | Checksum byte |
+| CRC | Checksum byte, include size, command, and data |
 
 | Command | Frame ID | Direction | Data | Type | Note |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
