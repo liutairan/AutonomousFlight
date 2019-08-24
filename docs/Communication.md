@@ -8,11 +8,11 @@ Message frame structure:
 | Field | Note |
 |:-----:|:----:|
 | Preamble | $A |
-| Direction | < (From computer/another device to FC) or > (From FC to computer/another device) |
+| Direction | < (From computer/another device to FC) or > (From FC to computer/another device). |
 | Size | Size of the data frame |
 | Command | Frame id |
 | Data | Data for each command |
-| CRC | Checksum byte, include size, command, and data |
+| CRC | Checksum byte, include size, command, and data. Use xor. |
 
 | Command | Frame ID | Direction | Data | Type | Note |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
