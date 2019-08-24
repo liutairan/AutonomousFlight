@@ -9,7 +9,7 @@ Message frame structure:
 |:-----:|:----:|
 | Preamble | $A |
 | Direction | < (From computer/another device to FC) or > (From FC to computer/another device). |
-| Size | Size of the data frame |
+| Size | Size of the data frame, n * bytes. |
 | Command | Frame id |
 | Data | Data for each command |
 | CRC | Checksum byte, include size, command, and data. Use xor. |
